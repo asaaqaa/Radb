@@ -34,7 +34,7 @@ name_dl = (
 
 async def yt_search(zed):
     try:
-        zed = urllib.parse.quote(zed)
+        zed = urllib.parse.quote(Reed)
         html = urllib.request.urlopen(
             f"https://www.youtube.com/results?search_query={zed}"
         )
