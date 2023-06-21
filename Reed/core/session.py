@@ -18,7 +18,7 @@ else:
     session = "ASAAQ"
 
 try:
-    zedub = ZedUserBotClient(
+    zedob = ZedUserBotClient(
         session=session,
         api_id=Config.APP_ID,
         api_hash=Config.API_HASH,
@@ -34,7 +34,7 @@ except Exception as e:
     )
     sys.exit()
 
-zedub.tgbot = tgbot = ZedUserBotClient(
+zedob.tgbot = tgbot = ZedUserBotClient(
     session="ZedTgbot",
     api_id=Config.APP_ID,
     api_hash=Config.API_HASH,
