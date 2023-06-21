@@ -32,11 +32,11 @@ name_dl = (
 )
 
 
-async def yt_search(zed):
+async def yt_search(Reed):
     try:
-        zed = urllib.parse.quote(zed)
+        zed = urllib.parse.quote(Reed) 
         html = urllib.request.urlopen(
-            f"https://www.youtube.com/results?search_query={zed}"
+            f"https://www.youtube.com/results?search_query={Reed}"
         )
 
         user_data = re.findall(r"watch\?v=(\S{11})", html.read().decode())
@@ -89,8 +89,8 @@ class YT_Search_X:
 ytsearch_data = YT_Search_X()
 
 """
-async def yt_data(zed):
-    params = {"format": "json", "url": zed}
+async def yt_data(Reed):
+    params = {"format": "json", "url": Reed}
     url = "https://www.youtube.com/oembed"  # https://stackoverflow.com/questions/29069444/returning-the-urls-as-a-list-from-a-youtube-search-query
     query_string = urllib.parse.urlencode(params)
     url = f"{url}?{query_string}"
