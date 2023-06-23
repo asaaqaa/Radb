@@ -14,7 +14,7 @@ from .sql_helper.globals import addgvar, delgvar, gvarstatus
 
 __version__ = "3.1.1"
 __license__ = "GNU Affero General Public License v3.0"
-__author__ = "ASAAQ <https://github.com/asaaqaa/ASAAQALIAS>"
+__author__ = "ASAAQ <https://github.com/asaaqaa/Radb>"
 __copyright__ = f"ASAAQ Copyright (C) 2021 - 2022  {__author__}"
 
 zedob.version = __version__
@@ -26,7 +26,7 @@ StartTime = time.time()
 zedversion = "3.1.1"
 
 if Config.UPSTREAM_REPO == "zel":
-    UPSTREAM_REPO_URL = "https://github.com/asaaqaa/ASAAQALIAS"
+    UPSTREAM_REPO_URL = "https://github.com/asaaqaa/Radb"
 else:
     UPSTREAM_REPO_URL = Config.UPSTREAM_REPO
 
