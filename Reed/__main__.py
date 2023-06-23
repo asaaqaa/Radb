@@ -9,7 +9,7 @@ from .core.session import zedob
 from .utils import mybot, saves
 from .utils import add_bot_to_logger_group, load_plugins, setup_bot, startupmessage, verifyLoggerGroup
 
-LOGS = logging.getLogger("ASAAQALIAS")
+LOGS = logging.getLogger("Radb")
 cmdhr = Config.COMMAND_HAND_LER
 
 print(Reed.__copyright__)
